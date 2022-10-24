@@ -1,0 +1,131 @@
+
+
+body{
+margin: 0;
+font-family:sans-serif;
+
+}
+
+
+header{
+    background-color: blueviolet;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+
+.brand{
+    width: 80%;
+    margin-left: 2%;
+}
+
+.menu{
+    width: 20%;
+    display: flex;
+}
+
+.c_masvendidos{
+    background-color: #fff1e2b5;
+
+}
+
+.c_masvendidos h3{
+    margin-left: 3%;
+    padding-bottom:2px;
+    margin-top: 4px;
+}
+
+.c_masvendidos h1{
+    border-bottom:2px solid rgba(158, 158, 158, 0.774);
+    box-shadow: 0 0px 4px 0px rgba(0,0,0,0.63);
+}
+
+.masvendidos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.fotomas{
+    margin: 2%;
+    
+   
+}
+
+.fotomas img{
+
+    border-radius: 15px;
+}
+
+
+.misproductos{
+
+}
+
+.tarjeta{
+    display: flex;
+
+    margin: 2%;
+    border-radius: 15px;
+    border:2px solid rgba(158, 158, 158, 0.418);
+}
+
+.contenedor2{
+    
+width: 20%;
+display: flex;
+   align-items: center;
+}
+
+
+.contenedor1{
+width: 80%;
+display: flex;
+align-items: center;
+
+}
+
+.fotoproducto{
+    width: 15%;
+}
+
+
+.tarjeta .producto{
+    
+    font-size: 17pt;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+
+.tarjeta .inventario{
+    
+    font-size: 16pt;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btn{
+    color: white;
+}
